@@ -1,0 +1,39 @@
+;DNS PUJ
+(
+192.168.0.9; SECONDARY DNS
+johan_ortegon@javeriana.edu.co; - The mail box of the person responsible for this zone
+0; SERIAL - Version of this masterfile
+7200; REFRESH - Interval before the zone should be refreshed
+3600000; EXPIRE
+86000; TTL
+)
+
+; A Records
+; name			IN	record_type	record_data
+; ZONE .com:
+www.facebook.com	IN	A	50.62.160.29
+www.yahoo.com	IN	A	50.62.160.29
+www.priceline.com	IN	A	19.19.19.19
+www.paypal.com	IN	A	23.36.184.186
+www.outlook.com	IN	A	40.97.153.146
+www.youtube.com	IN	A	172.217.28.109
+; SubDomains "priceline.com">
+www.media.priceline.com	IN	A	104.196.14.36
+www.careers.priceline.com	IN	A	161.47.16.152
+cruises.priceline.com	IN	A	209.202.133.97
+; SubDomains "facebook.com">
+el-gr.facebook.com	IN	A	157.240.6.5
+www.beta.facebook.com	IN	A	157.240.6.8
+www.connect.facebook.com	IN	A	157.240.6.6
+es-la.facebook.com	IN	A	157.240.6.7
+tl-ph.facebook.com	IN	A	157.240.6.10
+act.facebook.com	IN	A	157.240.6.15
+es.facebook.com	IN	A	157.240.6.22
+; SubDomains "youtube.com">
+kids.youtube.com	IN	A	172.217.28.002
+m.youtube.com	IN	A	172.217.28.003
+music.youtube.com	IN	A	172.217.28.005
+mx.youtube.com	IN	A	172.217.28.054
+news.youtube.com	IN	A	172.217.28.016
+nl.youtube.com	IN	A	172.217.28.022
+; Posibles actualizaciones

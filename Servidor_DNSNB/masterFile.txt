@@ -1,0 +1,4 @@
+DNS2;8.8.8.8
+www.facebook.com;50.62.160.29
+www.javeriana.edu.co;50.62.160.27
+www.yahoo.com;50.62.160.29
