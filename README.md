@@ -6,7 +6,7 @@ It also takes advantage of threads to be able to handle simultaneous requests.
 
 ## Usage
 
-* Clone the repository 'git clone https://github.com/NicolasCamachoP/OBBackEnd.git'
+* Clone the repository `git clone https://github.com/NicolasCamachoP/OBBackEnd.git`
 * Import the project to Netbeans and run it from the interface.
 
 ## Authors
