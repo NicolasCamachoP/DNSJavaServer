@@ -1,6 +1,6 @@
 # DNS Java
 
-DNS Java server that supports the UDP protocol to receive and response requests.
+DNS Java server that uses xbill DNS library and that supports the UDP protocol to receive and response requests.
 It uses a simple txt master file to read initial addresses, use it to answer for requests and update it periodically.
 It also takes advantage of threads to be able to handle simultaneous requests.
 
