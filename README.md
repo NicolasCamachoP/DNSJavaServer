@@ -6,7 +6,7 @@ It also takes advantage of threads to be able to handle simultaneous requests.
 
 ## Usage
 
-* Clone the repository `https://github.com/NicolasCamachoP/DNSJavaServer`
+* Clone the repository `git clone https://github.com/NicolasCamachoP/DNSJavaServer.git`
 * Import the project to Netbeans and run it from the interface.
 
 ## Authors
